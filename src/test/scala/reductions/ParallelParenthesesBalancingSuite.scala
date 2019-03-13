@@ -44,5 +44,12 @@ trait ParallelParenthesesBalancingSuite extends FunSuite {
     check(").", false)
   }
 
+  test("parBalance should handle ()()()() correctly") {
+    def check(input: String, expected: Boolean) =
+      assert(parBalance(input.toCharArray, 1) == expected,
+        s"parBalance($input) should be $expected")
+    check("()()()()", true)
+  }
+
 
 }

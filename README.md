@@ -3,3 +3,5 @@ The reductions assignment of EPFL: parprog1 (https://courseware.epfl.ch/courses/
 
 
 Achieved 10.00 out of 10.00
+
+New comment to test the new dev setup
